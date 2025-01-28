@@ -1,0 +1,10 @@
+pub const PUMP_PROGRAM: &str = "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P";
+pub const PUMP_GLOBAL: &str = "4wTV1YmiEkRvAtNtsSGPtUrqRYQMe5SKy2uB4Jjaxnjf";
+pub const PUMP_EVENT_AUTHORITY: &str = "Ce6TQqeHC9p8KetsN6JsjHK7UTZk7nasjjnr7XxXp9F1";
+pub const PUMP_FEE: &str = "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM";
+pub const LAMPORTS_PER_SOL: f64 = 1_000_000_000.0;
+pub const SOLSCAN_API: &str = "https://public-api.solscan.io/chaininfo";
+pub const RPC_TIMEOUT: Duration = Duration::from_secs(15);
+pub const MAX_RETRIES: usize = 3;
+use std::time::Duration;
+pub const PUMP_CREATE_DISCRIMINATOR: &str = "3f0a9d20d986e6c5";
